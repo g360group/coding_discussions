@@ -1,0 +1,49 @@
+---
+title: "Topics"
+author: "Jonathan Kennel"
+date: "19/06/2018"
+output:
+  word_document: default
+  pdf_document: default
+  html_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+## Potential Topics
+
+- Good data practices
+- Plotting methods
+- Reading Datasets
+- Aggregation and merging datasets
+- Document generation (reports, presentations)
+- Animations
+- Interactive
+- Webpages/blog
+- Useful R packages
+- Building packages
+- Version Control
+- Documentation
+- Improving speed
+- Using other languages in R
+- Reproducible research
+- Workflows
+- Getting help
+- Handling Dates
+- Functions
+- Loops and conditionals
+
+
+## Projects
+- Profile plotting
+- Hydraulic testing
+- Readers
+- Reporting
+- Analytical elements
+- Porting codes
+- Three/multi-point gradients
+- Fractures
+
