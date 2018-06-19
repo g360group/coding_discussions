@@ -1,7 +1,4 @@
 #install.packages('expint')
-#devtools::install_github('jkennel/aquifer')
-
-
 library(expint)
 
 transmissivity <- 1e-3
@@ -28,3 +25,13 @@ s_recov[wh] <- -s[1:43200]
 
 plot(s+s_recov, type = 'l')
 
+
+# Note the smoothness of the recovery!
+#devtools::install_github('jkennel/aquifer')
+library(aquifer)
+s_convolve <- grf_convolve(radius = 100, 
+                           storativity = 1e-5, K = 1e-3, 
+                           thickness = 1, time = 1:86400, 
+                           flow_rate = c(1 + rnorm(43200), rep(0.0, 43200)), 
+                           flow_dimension = 2)
+points(s_convolve, type ='l', col = 'red')
