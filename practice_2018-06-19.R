@@ -27,7 +27,8 @@ plot(s+s_recov, type = 'l')
 
 
 # Note the smoothness of the recovery!
-#devtools::install_github('jkennel/aquifer')
+# Make sure that you have Rtools
+# devtools::install_github('jkennel/aquifer')
 library(aquifer)
 s_convolve <- grf_convolve(radius = 100, 
                            storativity = 1e-5, K = 1e-3, 
