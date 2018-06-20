@@ -35,7 +35,7 @@ knitr::opts_chunk$set(echo = TRUE)
 - Handling Dates
 - Functions
 - Loops and conditionals
-
+- division
 
 ## Projects
 - Profile plotting

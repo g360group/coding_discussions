@@ -1,7 +1,7 @@
 #install.packages('expint')
 library(expint)
 
-transmissivity <- 1e-3
+transmissivity <- 1e-4
 storativity <- 1e-5
 time_start <- 1
 time_end <- 43200
